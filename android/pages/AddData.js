@@ -101,7 +101,7 @@ export default class AddData extends Component {
   onClickListener = async(viewId) => {
     console.log('viewId',viewId);
     if (viewId === 'add'){
-      const {avtarsource, firstname, lastname, gender, birthdate, age, height, weight, skintone, address, city, status, education, job, experience, fathername, mothername, fatheroccupation, motheroccupation, contactnumber} = this.state;      
+      const {firstname, lastname, gender, birthdate, age, height, weight, skintone, address, city, status, education, job, experience, fathername, mothername, fatheroccupation, motheroccupation, contactnumber} = this.state;      
       const valid = this.validate();
       console.log('valid',valid);
 
